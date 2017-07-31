@@ -147,7 +147,7 @@ class RPSGame {
     void playGame () {
         boolean quit = false;
         Scanner s = new Scanner(System.in);
-        WTL status = WTL.TIE;
+        WTL status;
         String userInput;
         
         System.out.println ("Let's play Rock Paper and Scissors:");
@@ -186,26 +186,10 @@ class RPSGame {
 
                     }
                 }
-                
-                
-                
-                     
-                
             }
-            
-            
-
-            
-            
-            
-                    
-            
         }
         
     }
-    
-    
-    
 }
 
 public class RockPaperScissors {
